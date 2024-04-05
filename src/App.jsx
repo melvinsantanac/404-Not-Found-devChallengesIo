@@ -1,13 +1,11 @@
 import Scarecrow from "./assets/Scarecrow.png";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="grid h-screen p-4">
-      <header className="flex items-center">
-        <h1 className="not-found uppercase font-bold text-[#333333] text-2xl leading-[25.18px]">
-          404 not found
-        </h1>
-      </header>
+      <Header />
 
       <main className="flex flex-col items-center md:flex-row font-mono h-[85vh]">
         <div className="flex justify-center items-center w-full md:w-1/2 md:h-full p-4">
@@ -35,12 +33,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="flex justify-center items-center text-[#BDBDBD] text-sm leading-[17.07px]">
-        <span>
-          created by <a href="https://melvinsantana.com">Melvin Santana</a> -
-          <a href="https://devChallenges.io"> devChallenges.io</a>
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 }
