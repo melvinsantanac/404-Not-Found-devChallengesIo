@@ -8,7 +8,7 @@ function App() {
       <Header />
 
       <main className="flex flex-col items-center md:flex-row font-mono h-[85vh]">
-        <div className="flex justify-center items-center w-full md:w-1/2 md:h-full p-4">
+        <div className="flex justify-center items-center w-full md:w-1/2 md:h-full pt-3">
           <img
             className="w-[286.83px] h-[238px] lg:w-[539.22px] lg:h-[447.43px]"
             src={Scarecrow}
@@ -17,7 +17,7 @@ function App() {
         </div>
 
         <div className="flex flex-col justify-center p-5 w-full md:w-1/2 md:h-full">
-          <h2 className="text-[#333333] font-bold text-5xl leading-[71.09px] lg:text-6xl lg:leading-[94.85px]">
+          <h2 className="text-[#333333] font-bold text-5xl leading-[65px] lg:text-6xl lg:leading-[94.85px]">
             I have bad news for you
           </h2>
           <p className="text-[#4f4f4f] font-normal text-lg lg:text-2xl leading-[26.66px] lg:leading-[35.54px]">
